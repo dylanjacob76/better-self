@@ -15,7 +15,7 @@ router.get("/", async (req, res) => {
     });
 
     // Serialize data so the template can read it
-    const posts = JSON.parse(JSON.stringify(postData));
+    const posts = postData.map((post) => post.get({ plain: true }));
 
     // Pass serialized data and session flag into template
     res.render("homepage", {
@@ -40,7 +40,7 @@ router.get("/post/:id", async (req, res) => {
     });
 
     // Serialize data so the template can read it
-    const post = JSON.parse(JSON.stringify(postData));
+    const post = postData.get({ plain: true });
 
     // Pass serialized data and session flag into template
     res.render("post", {
@@ -62,8 +62,7 @@ router.get("/profile", withAuth, async (req, res) => {
     });
 
     // Serialize data so the template can read it
-    const user = JSON.parse(JSON.stringify(userData));
-
+    const user = userData.get({ plain: true });
     // Pass serialized data and session flag into template
     res.render("profile", {
       ...user,
@@ -77,7 +76,8 @@ router.get("/profile", withAuth, async (req, res) => {
 router.get("/login", (req, res) => {
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
-    return res.redirect("/profile");
+    res.redirect("/profile");
+    return; 
   }
 
   res.render("login");

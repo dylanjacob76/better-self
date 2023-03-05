@@ -19,7 +19,7 @@ const seedDatabase = async () => {
     });
   }
 
-  process.exit();
+  process.exit(0);
 }
 
 seedDatabase();
