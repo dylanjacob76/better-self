@@ -17,8 +17,17 @@ header, .post:not(:last-child) {
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+
+.main-nav a {
+  margin-right: 8px
+}
+
+.post-info {
+  font-size: 15px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
 }

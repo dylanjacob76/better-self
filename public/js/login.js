@@ -39,7 +39,6 @@ const signupFormHandler = async (event) => {
       document.location.replace("/profile");
     } else {
       alert(response.statusText);
-      console.log("didn't work");
     }
   }
 };
