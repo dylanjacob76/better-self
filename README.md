@@ -1,13 +1,13 @@
-# tech-blog
+# better-self
 
 ## Description
-An application that allows a user to login to a Tech Blog website and view posts as well as create and delete their own!
+Welcome to Better Self! Here we post tips on health, fitness, wealth, and more! 
 
 ## Demo
 
 Quick demo of application and some of its features
 
-<img src="./assets/images/tech-blog-demo-1.gif" alt="tech blog demo" width="900">
+<img src="./assets/images/better-self-demo-1.gif" alt="better self demo" width="900">
 
 ## Table of Contents
 * [Installion](#installation)
