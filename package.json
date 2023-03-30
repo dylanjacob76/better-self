@@ -1,5 +1,5 @@
 {
-  "name": "tech-blog",
+  "name": "better-self",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dylanjacob76/tech-blog.git"
+    "url": "git+https://github.com/dylanjacob76/better-self.git"
   },
   "keywords": [],
   "author": "",
@@ -28,7 +28,7 @@
     "sequelize": "^6.3.5"
   },
   "bugs": {
-    "url": "https://github.com/dylanjacob76/tech-blog/issues"
+    "url": "https://github.com/dylanjacob76/better-self/issues"
   },
-  "homepage": "https://github.com/dylanjacob76/tech-blog#readme"
+  "homepage": "https://github.com/dylanjacob76/better-self#readme"
 }
