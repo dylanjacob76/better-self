@@ -26,6 +26,7 @@ const sess = {
 };
 
 app.use(session(sess));
+app.use("/images", express.static(path.join(__dirname, "/public/images")));
 
 // Inform Express.js on which template engine to use
 app.engine("handlebars", hbs.engine);
