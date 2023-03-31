@@ -1,13 +1,13 @@
-# better-self
+# Better Self
 
 ## Description
-Welcome to Better Self! Here we post tips on health, fitness, wealth, and more! 
+Here at Better Self, we pride ourselves on being "life longs students". That's why I developed this application in the first place! To share concepts and information with like minded individuals. Whether it be fitness, health, wealth, business, social skills, mindfulness, and more. You can find it all here!
 
 ## Demo
 
 Quick demo of application and some of its features
 
-<img src="./assets/images/better-self-demo-1.gif" alt="better self demo" width="900">
+<img src="./public/images/better-self-demo.gif" alt="better self demo" width="900">
 
 ## Table of Contents
 * [Installion](#installation)

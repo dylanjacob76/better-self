@@ -58,7 +58,6 @@ header,
 
 .homepage-cards-username {
   font-weight: bold;
-  /* font-family: 'Playfair Display', serif; */
 }
 
 .login-signup {
@@ -144,12 +143,16 @@ header,
   text-decoration: none;
 }
 
-.post-description {
+.single-post-description {
   max-width: 750px;
 }
 
-.post-info {
+.single-post-info {
   font-size: 15px;
+}
+
+.single-post-username {
+  font-weight: bold;
 }
 
 .post-list {
@@ -173,7 +176,7 @@ header,
 }
 
 .current-post-name {
-  color: #be4242;
+  color: #000000;
   font-family: 'Playfair Display', serif;
 }
 
@@ -204,18 +207,105 @@ header,
   background-color: #922b2b;
 }
 
-.footer-main {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-  margin-top: 24px;
-}
+/* MEDIA QUIRIES */
+@media only screen and (max-width: 750px) {
 
-.footer-created{
-  font-family: 'Playfair Display', serif;
-}
+  /* LOGIN PAGE */
+  .login-signup {
+    text-align: center;
+  }
+  
+  .login-form {
+    padding-bottom: 44px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #9d9c9c;
+  }
+  
+  .signup-form {
+    margin-bottom: 55px;
+  }
+  
+  .signup {
+    border-left: none;
+  }
 
-.footer-name{
-  color: #a33a3a;
+  /* HOMEPAGE */
+  .welcome p {
+    font-size: 15px;
+  }
+
+  .homepage-cards {
+    margin: 0 8px 36px 8px;
+    text-align: center;
+  }
+
+  .post-name {
+    font-size: 22px;
+    margin: 0;
+    display: block;
+  }
+
+  .post-info {
+    font-size: 14px;
+  }
+
+  .post-desc {
+    font-size: 16px;
+  }
+
+  /* PROFILE */
+  .create-a-post {
+   margin-bottom: 40px;
+  }
+
+  .welcome-header {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .create-post-title {
+    text-align: center;
+  }
+
+  .create-btn-form {
+    text-align: center;
+  }
+
+  .current-posts-title {
+    text-align: center;
+  }
+
+  .post-list {
+    margin-right: 16px;
+  }
+  
+  .current-post {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .current-post-name {
+    font-size: 20px;
+  }
+
+  .delete-btn {
+    margin: 12px 0 12px 0;
+  }
+
+  /* INDIVIDUAL POST */
+  .single-post-header {
+    font-size: 22px;
+  }
+
+  .single-post-description {
+    font-size: 16px;
+  }
+
+  .single-post-info {
+    font-size: 14px;
+  }
+
+  
 }
