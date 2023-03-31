@@ -5,15 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Better Self</title>
+  <link rel="icon" type="image/png" href="assets/images/Better-Self(2).png" />
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
   <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
+    <header class="main-header display-flex justify-space-between align-center p-2">
       <h1>
-        <a href="/">Better Self</a>
+        <a class="nav-title" href="/">Better Self</a>
       </h1>
       <nav class="main-nav">
         <!-- Conditionally render login or logout links -->
@@ -30,6 +31,7 @@
       {{{ body }}}
     </main>
   </div>
+  <footer class="footer-main"><span class="footer-created">created by</span> <a href="https://github.com/dylanjacob76" target="_blank" class="footer-name">@dylanjacob</a></footer>
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}

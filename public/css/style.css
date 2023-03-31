@@ -1,5 +1,14 @@
-header, .post:not(:last-child) {
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+header,
+.post:not(:last-child) {
   border-bottom: 1px solid #ccc;
+}
+
+.homepage-cards {
+  background-color: #e7e7e796;
+  padding: 24px;
+  border-radius: 24px;
 }
 
 .no-button {
@@ -7,27 +16,173 @@ header, .post:not(:last-child) {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #000000;
   text-decoration: none;
   font-size: 100%;
 }
 
 .no-button:hover {
-  color: #065b83;
-  text-decoration: underline;
+  color: #be4242;
+  transition: color 0.1s ease-in-out;
 }
 
+.nav-title {
+  font-family: 'Playfair Display', serif;
+  color: black;
+}
+
+.nav-title:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.login-signup {
+  margin-top: 60px;
+}
+
+.signup {
+  border-left: 1px solid #9d9c9c;
+}
+
+.login button {
+  color: #ffffff;
+  background-color: #a33a3a;
+}
+
+.login button:hover {
+  color: #efefef;
+  background-color: #922b2b;
+}
+
+.signup button {
+  color: #ffffff;
+  background-color: #a33a3a;
+}
+
+.signup button:hover {
+  color: #efefef;
+  background-color: #922b2b;
+}
+
+.main-header {
+  background-color: #f3f3f3;
+}
 
 .main-nav a {
-  margin-right: 8px
+  margin-right: 8px;
+  color: #000000;
+}
+
+.main-nav a:hover {
+  text-decoration: none;
+}
+
+.single-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #f3f3f3;
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.single-post-header {
+  color: #be4242;
+}
+
+.back-btn {
+  border-style: none;
+  background-color: #be4242;
+  color: #ffffff;
+}
+
+.back-btn:hover {
+  background-color: #922b2b;
+  color: #efefef;
+}
+
+.post-name {
+  color: #be4242;
+}
+
+.post-name:hover {
+  color: #922b2b;
+  transition: color 0.1s ease-in-out;
+  text-decoration: none;
+}
+
+.post-description {
+  max-width: 750px;
 }
 
 .post-info {
   font-size: 15px;
 }
 
+.post-list {
+  border-left: 1px solid #9d9c9c;
+}
+
+.current-post {
+  background-color: #e7e7e796;
+  padding: 8px;
+  margin-left: 1px;
+  border-radius: 10px;
+}
+
+.create-post-title {
+  font-family: 'Playfair Display', serif;
+}
+
+.current-posts-title {
+  font-family: 'Playfair Display', serif;
+}
+
+.current-post-name {
+  color: #be4242;
+}
+
+.current-post-name:hover {
+  color: #922b2b;
+  text-decoration: none;
+  transition: color 0.1s ease-in-out;
+}
+
+.create-btn {
+  color: #ffffff;
+  background-color: #a33a3a;
+}
+
+.delete-btn {
+  color: #ffffff;
+  background-color: #a33a3a;
+  
+}
+
+.delete-btn:hover {
+  color: #efefef;
+  background-color: #922b2b;
+}
+
+.create-btn:hover {
+  color: #efefef;
+  background-color: #922b2b;
+}
+
 .footer-main {
-  display: flex;
-  justify-content: center;
-  align-self: flex-end;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.footer-created{
+  font-family: 'Playfair Display', serif;
+}
+
+.footer-name{
+  color: #a33a3a;
 }
