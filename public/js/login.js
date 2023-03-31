@@ -14,7 +14,6 @@ const signupFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      alert("okay")
       document.location.replace("/profile");
     } else {
       alert(response.statusText);
@@ -36,8 +35,8 @@ const loginFormHandler = async (event) => {
       headers: { "Content-Type": "application/json" },
     });
 
+    // FIXME: /profile doesn't exist because it doesn't log me in after sign up
     if (response.ok) {
-      console.log("response ok")
       document.location.replace("/profile");
     } else {
       alert(response.statusText);
