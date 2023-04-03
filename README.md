@@ -5,7 +5,7 @@ Here at Better Self, we pride ourselves on being "life longs students". That's w
 
 ## Demo
 
-Quick demo of application and some of its features
+Quick demo of application and some of its features!
 
 <img src="./public/images/better-self-demo.gif" alt="better self demo" width="900">
 
