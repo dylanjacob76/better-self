@@ -35,11 +35,10 @@ const loginFormHandler = async (event) => {
       headers: { "Content-Type": "application/json" },
     });
 
-    // FIXME: /profile doesn't exist because it doesn't log me in after sign up
     if (response.ok) {
       document.location.replace("/profile");
     } else {
-      alert(response.statusText);
+      alert("email or password is incorrect, please try agian.");
     }
   }
 };
